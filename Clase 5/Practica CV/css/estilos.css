@@ -1,0 +1,48 @@
+/* para comentar */
+body{
+    font-family: Calibri, Arial, Helvetica,Sans-serif;
+
+}
+/* para comentar */
+main{
+    max-width: 80%;
+    margin: 0 auto;
+}
+/* Header y main*/
+header{
+    background-color: #ddd;
+    text-align: center;
+    line-height: 2;
+}
+/* h1 h2*/
+h1, h2 {
+    background-color: #BFBFBF;
+    font-family: serif;
+    text-transform: uppercase;/* todo quede en mayuscula*/
+    }
+h1{
+    color: #1F497D;
+    font-size: 32px;
+    letter-spacing: 15pt;
+    word-spacing: 40pt;
+}
+h2 {
+    color: #632423;
+    font-size: 18px;
+    letter-spacing: 9pt;
+    word-spacing: 23pt;
+}
+.item-detail{
+    font-style: italic;
+    font-weight: bold;
+}
+/*footer*/
+footer{
+    background-color: #1F497D;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+footer img{
+    width: 20px;
+}
