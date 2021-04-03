@@ -17,4 +17,4 @@ Los proyectos desarrollados durante le curso se alojan en la carpeta raíz de es
 
 ### Autor
 
-Jhon Alexis Parra Abril - Bogotá Colombia - 2021
+Rodrigo Pressacco - Cordoba Argentina - 2021
