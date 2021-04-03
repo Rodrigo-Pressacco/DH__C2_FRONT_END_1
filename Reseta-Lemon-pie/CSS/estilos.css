@@ -1,0 +1,40 @@
+/*body*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Main*/
+main{
+    background-color: #7df551;
+    max-width: 95%;
+    margin: auto;
+}
+/*header*/
+header{
+    background-color: rgba(93, 245, 159, 0.5);
+    text-align: center;
+}
+nav{
+
+    text-align: left;    
+    margin-left: 5%;
+}
+h1{
+   font-weight: bold;
+   letter-spacing: 8px;
+   word-spacing: 15px; 
+}
+h2{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    
+}
+.itemCantidad{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+    background-color: grey;
+}

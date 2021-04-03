@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <title>Reseta</title>
     <base target="_blank">
+    <link rel="stylesheet" href="CSS/estilos.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <img src="logo-front.png" alt="Logo">
+            <img #id="logo" src="imagenes/logo-front.png" alt="Logo">
             <ul>
                 <li> <a href="https://www.recetasderechupete.com/todas/recetas/postres-dulces/">Resetas Dulces</a> </li>
                 <li> <a href="https://es.tastemade.com/recetas/Recetas-Saladas">Resetas Saladas</a></li>
@@ -18,7 +19,7 @@
     
             </ul>
         </nav>
-        <img src="lemon-pie.png" alt="Lemon pie">
+        <img src="imagenes/lemon-pie.png" alt="Lemon pie">
         <h1>El clásico Lemon Pie</h1>
         <p>Es el preferido de los que les gusta lo dulce pero no lo empalagoso. <strong>El lemon pie es una
                 tarta</strong>, es decir, una
@@ -27,25 +28,25 @@
     </header>
     <main>
         <!-- Empieza Section -->
-        <section>
+        <section class="sectionIngredientes">
             <h2>Ingredientes para la masa</h2>
             <ul type="none">
-                <li>200g. gramos de harina</li>
-                <li>50g. de azúcar</li>
-                <li>1 huevo</li>
-                <li>100g. de manteca</li>
+                <li><span class = "itemCantidad">200g:</span> gramos de harina</li>
+                <li><span class = "itemCantidad">50g:</span> de azúcar</li>
+                <li><span class = "itemCantidad">1:</span> huevo</li>
+                <li><span class = "itemCantidad">100g:</span> de manteca</li>
             </ul>
             <h2>Ingredientes para la masa</h2>
             <ul type="none">
-                <li>150cc. de jugo de limón</li>
-                <li>1 cucharada de ralladura de limón</li>
-                <li>4 yemas</li>
-                <li>leche condensada</li>
+                <li><span class = "itemCantidad">150cc:</span> de jugo de limón</li>
+                <li><span class = "itemCantidad">1 cucharada:</span> de ralladura de limón</li>
+                <li><span class = "itemCantidad">4:</span> yemas</li>
+                <li><span class = "itemCantidad">1:</span> leche condensada</li>
             </ul>
             <h2>Ingredientes para el merengue</h2>
             <ul type="none">
-                <li>240g. de azúcar</li>
-                <li>3 claras</li>
+                <li><span class = "itemCantidad">240g:</span> de azúcar</li>
+                <li><span class = "itemCantidad">3:</span> claras</li>
             </ul>
         </section>
         <section>
@@ -67,8 +68,8 @@
             </ol>
         </section>
     </main>
-    <footer style="background-color: grey;">
-        <p align="center">Resetiriginia</p>
+    <footer>
+        <p>Resetiriginia</p>
         </p>
     </footer>
 </body>
