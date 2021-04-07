@@ -1,38 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto:wght@300&display=swap');
 /*body*/
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-/*Main*/
-main{
-    background-color: #7df551;
-    max-width: 95%;
-    margin: auto;
+main, header, footer {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.sinPuntos{
+    list-style: none;
+    padding: 0%;
 }
 /*header*/
 header{
-    background-color: rgba(93, 245, 159, 0.5);
-    text-align: center;
-}
-nav{
+    background-image: url("../imagenes/lemon-pie.png");
+    background-position: center 30%;
+    background-size: cover;
+    height: 500px;
 
-    text-align: left;    
-    margin-left: 5%;
 }
 h1{
    font-weight: bold;
+   font-size: 60px;
    letter-spacing: 8px;
-   word-spacing: 15px; 
-}
-h2{
-    font-weight: bold;
-    font-style: italic;
-    text-decoration: underline;
+   word-spacing: 15px;
     
 }
-.itemCantidad{
+h3{
+    font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
     font-style: italic;
-    font-weight: bold;
-    text-decoration: underline;
+    
 }
 footer{
     text-align: center;
