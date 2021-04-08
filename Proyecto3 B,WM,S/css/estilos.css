@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.descuento{
+    background-color: #1CD1B0;
+    padding-left: 30px;
+}
+header{
+    position: sticky;
+    top: 0;
+    background: #00669F;
+    padding: 10px 30px 10px;
+}
+.card{
+    max-width: 1000px;
+    margin: 0 auto;   
+}
+.cardTexto img{
+    width: 100px;
+}
