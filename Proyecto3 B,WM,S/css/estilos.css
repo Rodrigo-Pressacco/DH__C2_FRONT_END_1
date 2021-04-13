@@ -3,16 +3,22 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --corazon-color: #CC2424;
+    --main-color: #00669F;
+    --card-color: #F3F3F3;
+    --descuentos-color: #1CD1B0;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
 .descuento{
-    background-color: #1CD1B0;
+    background-color: var(--descuentos-color);
     padding-left: 30px;
     font-size: 20px;
 }
 header, footer, .ver-mas{
-    background-color: #00669F; 
+    background-color:var(--main-color); 
     color: white;   
 }
 header{
@@ -36,7 +42,7 @@ main{
     display: flex;
     position: relative;
     margin-bottom: 40px; 
-    background: #F3F3F3;
+    background: var(--card-color);
     flex-direction: column;
     left: calc(50% - 150px);
 
@@ -54,7 +60,7 @@ main{
 .favs {
     top: 15px;
     left: 15px;
-    color: #CC2424;
+    color: var(--corazon-color);
     position: absolute;
     font-size: xx-large;
     
@@ -125,12 +131,12 @@ footer{
 }
 /*boton circulo*/
 .add-circle {
-    color: #00669F;
+    color:var(--main-color);
     top: 70%;
     right: 10%;
     position:fixed;
     font-size: 40px;
     border-radius: 50%;
-    border: 10px solid #00669F;
-    box-shadow: inset 0 0 0 6px #00669F;
+    border: 10px solid var(--main-color);
+    box-shadow: inset 0 0 0 6px var(--main-color);
 }
