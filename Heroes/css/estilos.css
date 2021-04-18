@@ -2,89 +2,9 @@
 @import "./variables.css";
 @import "./footer.css";
 @import "./header.css";
-form {
-    width: var(--form-width);
-    height: 30%;
-    position: absolute;
-    left: 30%;
-    top: 15%;
-}
+@import "./formularios.css";
 
-form p {
-    text-align: center;
-}
-
-form * {
-    margin: 10px 0;
-}
-
-form p a {
-    font-family: "Karla", sans-serif;
-    text-decoration: none;
-    color: #00669F;
-}
-
-form h2 {
-    font-family: "Inter", sans-serif;
-    font-size: 72px;
-    font-weight: bold;
-    color: #333333;
-}
-
-input[type=text],
-input[type=email],
-input[type=password],
-select {
-    width: 100%;
-    height: 60px;
-    font-size: 20px;
-    padding: 12px 20px;
-    display: inline-block;
-    border: 1.53px solid #000000;
-    font-family: "Karla", sans-serif;
-}
-
-#botones {
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-}
-
-button[type=submit] {
-    width: 100%;
-}
-
-input[type=submit],
-button[type=submit] {
-    background-color: #1CD1B0;
-}
-
-input[type=reset] {
-    background-color: #888888;
-    color: white;
-}
-
-#campos {
-    margin: 30px 0;
-}
-
-input[type=reset],
-input[type=submit] {
-    width: 48%;
-}
-
-button[type=submit],
-input[type=reset],
-input[type=submit] {
-    font-size: 24px;
-    font-family: "Karla", sans-serif;
-    font-weight: bold;
-    border-radius: 23px;
-    padding: 10px;
-    border: none;
-}
-
-#offer {
+#descuento {
     height: 23px;
     padding-top: 2px;
     padding-left: 20px;
@@ -148,9 +68,9 @@ main {
 section {
     display: flex;
     position: absolute;
-    left: var(--cards-left);
-    width: var(--cards-width);
+    width: var(--section-width);
     justify-content: space-between;
+    left: var(--cards-left);
     top: calc((var(--page-height))/2 - var(--card-height)/2);
 }
 
@@ -166,6 +86,7 @@ section {
     width: var(--card-width);
     height: var(--card-height);
     background-color: var(--card-color);
+    margin: 20px;
 }
 
 .card h2 {
@@ -213,6 +134,10 @@ section {
     background-size: 550px;
     background-position: 30% 25%;
 }
+#bg-harley{
+    background-image: url('../img/bg-harley.jpg');
+    background-position: center;
+}
 #img-batman{
     background-image: url("../img/batman.jpg");
     background-size: 400px;
@@ -227,4 +152,8 @@ section {
     background-image: url("../img/superman.jpg");
     background-size: 200px;
     background-position: 50% 45%;
+}
+#img-harley{
+    background-image: url('../img/harley.jpg');
+    background-size: contain;
 }

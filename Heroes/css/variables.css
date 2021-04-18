@@ -7,15 +7,15 @@
     --offer-color: #1CD1B0;
     --shadow-color: #00000025;
     --page-height: 1000px;
-    --form-width: 45%;
     --cards-width: 1000px;
-    --cards-left: calc(50% - var(--cards-width)/2);
+    --cards-left: calc(50% - var(--cards-width)/1.5);
     --card-width: 300px;
     --card-height: 530px;
     --bg-height: 190px;
+    --section-width: calc(var(--cards-width)/0.75);
     --img-top: calc(var(--bg-height) - var(--img-size)/2);
     --img-left: calc(var(--card-width)/2 - var(--img-size)/2);
     --img-size: calc(var(--card-width) * 0.4);
     --boton-width: var(--img-size);
-    --boton-left: var(--img-left);
+    --boton-left: var(--img-left);    
 }
