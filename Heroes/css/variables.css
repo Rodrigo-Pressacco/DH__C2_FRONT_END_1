@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+:root {
+    --heart-color: #CC2424;
+    --header-color: #00669F;
+    --card-color: #F3F3F3;
+    --offer-color: #1CD1B0;
+    --shadow-color: #00000025;
+    --page-height: 1000px;
+    --form-width: 45%;
+    --cards-width: 1000px;
+    --cards-left: calc(50% - var(--cards-width)/2);
+    --card-width: 300px;
+    --card-height: 530px;
+    --bg-height: 190px;
+    --img-top: calc(var(--bg-height) - var(--img-size)/2);
+    --img-left: calc(var(--card-width)/2 - var(--img-size)/2);
+    --img-size: calc(var(--card-width) * 0.4);
+    --boton-width: var(--img-size);
+    --boton-left: var(--img-left);
+}

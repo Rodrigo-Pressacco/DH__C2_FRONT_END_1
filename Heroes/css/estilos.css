@@ -1,0 +1,230 @@
+@import "./base.css";
+@import "./variables.css";
+@import "./footer.css";
+@import "./header.css";
+form {
+    width: var(--form-width);
+    height: 30%;
+    position: absolute;
+    left: 30%;
+    top: 15%;
+}
+
+form p {
+    text-align: center;
+}
+
+form * {
+    margin: 10px 0;
+}
+
+form p a {
+    font-family: "Karla", sans-serif;
+    text-decoration: none;
+    color: #00669F;
+}
+
+form h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    color: #333333;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+select {
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1.53px solid #000000;
+    font-family: "Karla", sans-serif;
+}
+
+#botones {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+button[type=submit] {
+    width: 100%;
+}
+
+input[type=submit],
+button[type=submit] {
+    background-color: #1CD1B0;
+}
+
+input[type=reset] {
+    background-color: #888888;
+    color: white;
+}
+
+#campos {
+    margin: 30px 0;
+}
+
+input[type=reset],
+input[type=submit] {
+    width: 48%;
+}
+
+button[type=submit],
+input[type=reset],
+input[type=submit] {
+    font-size: 24px;
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+    border-radius: 23px;
+    padding: 10px;
+    border: none;
+}
+
+#offer {
+    height: 23px;
+    padding-top: 2px;
+    padding-left: 20px;
+    background-color: var(--offer-color);
+}
+
+#logo {
+    padding: 3px 20px 3px 10px;
+    position: relative;
+}
+
+nav {
+    height: 40px;
+    position: relative;
+    background-color: black;
+}
+
+ul {
+    align-items: right;
+    position: absolute;
+    right: 20px;
+}
+
+ul a {
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.fa-heart {
+    top: 10px;
+    left: 20px;
+    color: var(--heart-color);
+    position: absolute;
+    font-size: x-large;
+    transform: scale(1, .84);
+}
+
+.boton-vm {
+    width: var(--boton-width);
+    left: var(--boton-left);
+    bottom: 15px;
+    padding: 12px;
+    position: absolute;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--header-color);
+}
+
+.card h2,
+.boton-vm {
+    text-align: center;
+}
+
+main {
+    height: var(--page-height);
+    position: relative;
+}
+
+section {
+    display: flex;
+    position: absolute;
+    left: var(--cards-left);
+    width: var(--cards-width);
+    justify-content: space-between;
+    top: calc((var(--page-height))/2 - var(--card-height)/2);
+}
+
+.card,
+.card-bg,
+.card-img {
+    box-shadow: 0px 2px 0px var(--shadow-color);
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    width: var(--card-width);
+    height: var(--card-height);
+    background-color: var(--card-color);
+}
+
+.card h2 {
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+.card p {
+    padding: 0 18px;
+    text-align: left;
+}
+
+.card-bg {
+    height: var(--bg-height);
+    margin-bottom: 75px;
+    border-radius: 25px 25px 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 75% 50%;
+}
+
+.card-img {
+    top: var(--img-top);
+    left: var(--img-left);
+    width: var(--img-size);
+    height: var(--img-size);
+    position: absolute;
+    border-radius: 50%;
+    background-size: 140px;
+    background-position: 58% 0;
+}
+#bg-batman{
+    background-size: 550px;
+    background-position: 30% 50%;
+    background-image: url('../img/bg-batman.jpg');
+}
+#bg-wonderw{
+    background-image: url('../img/bg-wonderw.jpg');
+    background-size: 350px;
+    background-position: 80% 45%;
+}
+#bg-superman{
+    background-image: url('../img/bg-superman.jpg');
+    background-size: 550px;
+    background-position: 30% 25%;
+}
+#img-batman{
+    background-image: url("../img/batman.jpg");
+    background-size: 400px;
+    background-position: 58% 0%;
+}
+#img-wonderw{
+    background-image: url("../img/wonderw.jpg");
+    background-size: 150px;
+    background-position: 58% 0%;
+}
+#img-superman{
+    background-image: url("../img/superman.jpg");
+    background-size: 200px;
+    background-position: 50% 45%;
+}

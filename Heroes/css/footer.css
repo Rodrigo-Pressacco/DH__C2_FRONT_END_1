@@ -1,0 +1,10 @@
+@import "./variables.css";
+/*solo footer*/
+footer{
+    color: white;
+    background-color: var(--header-color);    
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+    position: relative;
+}
