@@ -1,0 +1,8 @@
+@import "./variables.css";
+
+.card{
+    width: 70%;
+}
+form{
+    background-color: purple;
+}

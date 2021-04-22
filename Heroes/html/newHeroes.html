@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/newHeroes.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="descuento">20% de descuento en todos los productos!</div>
+    <header>
+        <a href="./index.html">
+            <img id="logo" src="../img/logo-heroes.jpg"></img>
+        </a>
+        <h1>
+            Super Tienda
+        </h1>
+    </header>
+    <main>
+        <div class="card">
+            <h3>Añadi tu super!</h3>
+            <p>Agrega tu personaje favorito completando las opciones</p>
+            <form action="../index.html" method="POST">
+            <fieldset>
+                <label for="nombre">*Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Superman" request>
+                <label for="fecha">Fecha</label>
+                <input type="date" id="fecha" name="fecha">
+                <textarea name="descripcion" id="descripcion" placeholder="Descripcion" cols="30" rows="10"></textarea>
+            </fieldset>
+            <fieldset>
+                <label for="especie">*Especie</label>
+                <select name="especie" id="especie">
+                    <option value="Humano">Humano</option>
+                    <option value="Kriptoniano">Kriptoniano</option>
+                    <option value="Maciano">Maciano</option>
+                </select>
+                <label for="imagen">Agregar Foto</label>
+                <input type="file" id="imagen" name="imagen" accept=".jpg, .png">
+                <label for="poderes">Poderes</label>
+                <label for="poder1"><input type="checkbox" id="poder1" name="volar"> Volar</label>
+                <label for="poder2"><input type="checkbox" id="poder2" name="superinteligencia"> Superinteligencia</label>
+                <label for="poder3"><input type="checkbox" id="poder3" name="rallosLaeer"> Vista de Rayos Laser</label>
+                <label for="poder4"><input type="checkbox" id="poder4" name="billetera"> Billetera Gorda</label>
+                <label for="tipoPersonaje">Tipo de Personaje</label>
+                <label for="heroe"><input type="radio" id="heroe" name="heroeVillano"> Heroe / Heroina</label>
+                <label for="villano"><input type="radio" id="villano" name="heroeVillano"> Villana / Villano</label>
+            </fieldset>
+            <input type="submit" value="Añadir">                      
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a Front-End 1</p>
+    </footer>
+    
+</body>
+</html>
