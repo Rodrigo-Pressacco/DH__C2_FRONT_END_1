@@ -2,9 +2,7 @@
 @import "./variables.css";
 @import "./footer.css";
 @import "./header.css";
-@import "./formularios.css";
 @import "./harley.css";
-@import "./newHeroes.css";
 
 #descuento {
     height: 23px;

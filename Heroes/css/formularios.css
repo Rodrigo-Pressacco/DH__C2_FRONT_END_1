@@ -2,14 +2,14 @@
 
 /*solo lo de formularios*/
 
-form {
+.formLogReg {
     width: 45%;
     height: 30%;
     position: absolute;
     left: 30%;
     top: 15%;
 }
-form {
+.formLogReg {
     width: 45%;
     height: 30%;
     position: absolute;
@@ -17,21 +17,21 @@ form {
     top: 15%;
 }
 
-form p {
+.formLogReg p {
     text-align: center;
 }
 
-form * {
+.formLogReg * {
     margin: 10px 0;
 }
 
-form p a {
+.formLogReg p a {
     font-family: "Karla", sans-serif;
     text-decoration: none;
     color: #00669F;
 }
 
-form h2 {
+.formLogReg h2 {
     font-family: "Inter", sans-serif;
     font-size: 72px;
     font-weight: bold;

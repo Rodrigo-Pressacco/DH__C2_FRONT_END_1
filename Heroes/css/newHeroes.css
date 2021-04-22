@@ -1,8 +1,51 @@
 @import "./variables.css";
-
-.card{
-    width: 70%;
+main{
+    margin: 2%;
 }
-form{
-    background-color: purple;
+.cardNew{
+    width: 60%;
+    background-color: var(--header-color);
+    border-radius: 25px;
+    margin: 0 auto;;
+}
+.cardNew h3, p{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+.cardNew h3{
+    font-size: 50px;
+    padding-top: 40px;
+}
+.divNew1, .divNew2{
+    display: inline-block;
+    margin: 0 20px 10px;
+    border: 2px red solid;/* solo para guia luego lo borro*/  
+}
+
+.divNew1{
+    width: 45%;
+    height: 100%;
+}
+.divNew2{
+    width: 45%;
+    height: 100%;
+}
+
+#formNew input,
+#formNew textarea{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.formNew input[type=submit]{    
+    background-color: #17a2b8;
+    border: none;
+    color: #fff;
+    width: unset;
+}
+
+.formNew input[type=radio],
+.formNew input[type=checkbox]{
+    width: unset;
 }
