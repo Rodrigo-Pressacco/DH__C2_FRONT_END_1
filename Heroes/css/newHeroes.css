@@ -1,12 +1,13 @@
 @import "./variables.css";
 main{
-    margin: 2%;
+    margin: 4% 0 -4%;
 }
+/* CardNew*/
 .cardNew{
-    width: 60%;
+    width: 65%;
     background-color: var(--header-color);
     border-radius: 25px;
-    margin: 0 auto;;
+    margin: 0 auto;
 }
 .cardNew h3, p{
     text-align: center;
@@ -17,35 +18,90 @@ main{
     font-size: 50px;
     padding-top: 40px;
 }
+/*divNew1 y divNew2*/
 .divNew1, .divNew2{
     display: inline-block;
-    margin: 0 20px 10px;
-    border: 2px red solid;/* solo para guia luego lo borro*/  
+    /*border: 2px red solid;*//* solo para guia luego lo borro*/  
 }
 
 .divNew1{
-    width: 45%;
+    width: 42%;
     height: 100%;
+    margin: 0 45px;
 }
 .divNew2{
-    width: 45%;
-    height: 100%;
+    width: 28%;
+    height: 62%;
+    position: absolute;
+    top: 20;
 }
-
-#formNew input,
-#formNew textarea{
-    margin-bottom: 10px;
+/*divNew1 dentro*/
+.divNew1 input,
+.divNew1 textarea,
+.divNew1 label{
     width: 100%;
+    padding: 15px;
+    margin: 25px 5px 25px 5px;
+    border-radius: 10px;;
 }
 
-.formNew input[type=submit]{    
+.divNew1 input,
+.divNew1 textarea{
+    border: 1px solid var(--header-color)
+}
+
+.divNew1 textarea{
+    height: 300px;
+}
+
+.divNew1 label{
+    color: white;
+    font-size: 25px;
+    margin-left: -4px;
+}
+
+/*divnew2 dentro*/
+.divNew2 input,
+.divNew2 label{
+    width: 100%;
+    padding: 15px;
+    margin: 25px 5px 25px 5px;
+}
+
+.divNew2 select{
+    width: 100%;
+    padding: 15px;
+    margin: 25px 5px 25px 5px;
+}
+
+.divNew2 input[type=file]{
+    width: unset;
+}
+fieldset{
+    margin: 6px 0px 6px;
+    border: none;
+}
+
+.divNew2 input[type=radio],
+.divNew2 input[type=checkbox]{
+    width: unset;
+}
+#titulo{
+    color: white;
+    font-size: 25px;
+}
+#poder1,#poder2,#poder3,#poder4,#heroe,#villano{
+    margin: 12.5px;
+}
+
+/*Boton*/
+input[type=submit]{ 
+    display: inline-block;       
     background-color: #17a2b8;
     border: none;
     color: #fff;
-    width: unset;
-}
-
-.formNew input[type=radio],
-.formNew input[type=checkbox]{
-    width: unset;
+    width: 55%;
+    margin: 0px 0px 20px 23%;
+    height: 70px;
+    border-radius: 25px;
 }

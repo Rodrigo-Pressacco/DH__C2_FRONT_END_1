@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/newHeroes.css">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="./css/estilos.css">
     <title>Document</title>
 </head>
 
@@ -14,7 +14,7 @@
     <div id="descuento">20% de descuento en todos los productos!</div>
     <header>
         <a href="./index.html">
-            <img id="logo" src="../img/logo-heroes.jpg"></img>
+            <img id="logo" src="./img/logo-heroes.jpg"></img>
         </a>
         <h1>
             Super Tienda
@@ -24,7 +24,7 @@
         <div class="cardNew">
             <h3>Añadi tu super!</h3>
             <p>Agrega tu personaje favorito completando las opciones</p>
-            <form action="../index.html" id="formNew" method="POST">
+            <form action="./index.html" id="formNew" method="POST">
                 <div class="divNew1">
                     <label for="nombre">*Nombre</label>
                     <input type="text" id="nombre" name="nombre" placeholder="Superman" request>
@@ -34,31 +34,39 @@
                         rows="10"></textarea>
                 </div>
                 <div class="divNew2">
-                    <label for="especie">*Especie</label>
+                    <label for="especie" id="titulo">*Especie</label>
                     <select name="especie" id="especie">
                         <option value="Humano">Humano</option>
                         <option value="Kriptoniano">Kriptoniano</option>
                         <option value="Maciano">Maciano</option>
                     </select>
-                    <label for="imagen">Agregar Foto</label>
+                    <label for="imagen" id="titulo">Agregar Foto</label>
+                    <br>
                     <input type="file" id="imagen" name="imagen" accept=".jpg, .png">
                     <fieldset>
-                        <label for="poderes">Poderes</label>
-
+                        <label for="poderes" id="titulo">Poderes</label>
+                        <br>
                         <label for="poder1"><input type="checkbox" id="poder1" name="volar"> Volar</label>
+                        <br>
                         <label for="poder2"><input type="checkbox" id="poder2" name="superinteligencia">
-                            <label for="poder3"><input type="checkbox" id="poder3" name="rallosLaeer"> Vista de Rayos
-                                Laser</label>
-                            <label for="poder4"><input type="checkbox" id="poder4" name="billetera"> Billetera
-                                Gorda</label>
+                            superinteligencia</label>
+                        <br>
+                        <label for="poder3"><input type="checkbox" id="poder3" name="rallosLaeer"> Vista de Rayos
+                            Laser</label>
+                        <br>
+                        <label for="poder4"><input type="checkbox" id="poder4" name="billetera"> Billetera
+                            Gorda</label>
                     </fieldset>
                     <hr>
                     <fieldset>
-                        <label for="tipoPersonaje">Tipo de Personaje</label>
+                        <label for="tipoPersonaje" id="titulo">Tipo de Personaje</label>
+                        <br>
                         <label for="heroe"><input type="radio" id="heroe" name="heroeVillano"> Heroe / Heroina</label>
+                        <br>
                         <label for="villano"><input type="radio" id="villano" name="heroeVillano"> Villana /
                             Villano</label>
-                    </fieldset></div>
+                    </fieldset>
+                </div>
                 <input type="submit" value="Añadir">
             </form>
         </div>

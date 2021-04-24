@@ -1,8 +1,10 @@
-@import "./base.css";
-@import "./variables.css";
-@import "./footer.css";
-@import "./header.css";
-@import "./harley.css";
+@import  url("base.css");
+@import  url("variables.css");
+@import  url("header.css"); 
+@import  url("harley.css");
+@import  url("footer.css");
+
+
 
 #descuento {
     height: 23px;
