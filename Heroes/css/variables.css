@@ -6,6 +6,7 @@
     --card-color: #F3F3F3;
     --offer-color: #1CD1B0;
     --shadow-color: #00000025;
+    --hover-color: #001D2D;
     --page-height: 1000px;
     --cards-width: 1000px;
     --cards-left: calc(50% - var(--cards-width)/1.5);

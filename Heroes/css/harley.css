@@ -1,16 +1,14 @@
-@import './variables.css';
+@import  url("base.css");
+@import  url("variables.css");
+@import  url("header.css");
+@import  url("footer.css");
 
 #main-harley{
     background-image: url('../img/bg-harley.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-#section-haley {
-    position: absolute;
-    width: 600px;
-    left: 530px;
-    top: calc((var(--page-height))/2 - var(--card-height)/2);
+    height: var(--page-height);
+    position: relative;
 }
 
 #card-haley,
@@ -20,45 +18,52 @@
 
 #card-haley {
     display: inline-block;
-    position: relative;
-    width: 400px;
-    height: 350px;
+    width: 550px;
     background-color: var(--card-color);
-    margin: 20px;
-    border-radius: 25px 25px;
+    margin: 10% 33%;
+    border-radius: 30px 30px;
+    border: black solid 3px;
 }
 
 #card-haley h2 {
     text-transform: uppercase;
     padding: 10px 0;
     font-size: 30px;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 #card-haley p {
-    padding: 0 18px;
-    text-align: left;
+    padding: 10px 18px;
+    text-align: justify;
+    font-size: 18px;
 }
 
 
 .card-img-doc {
     top: var(--img-top);
     left: var(--img-left);
-    width: var(--img-size);
-    height: var(--img-size);
-    position: absolute;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 6px  32% 0;
     border-radius: 50%;
     background-size: 140px;
     background-position: 58% 0;
     background-image: url('../img/harley.jpg');
-    background-size: contain;
+    background-size: cover;
+    border: solid 3px black;
 }
 
 .boton-vm-doc {
-    width: var(--boton-width);
-    left: var(--boton-left);
+    display: inline-block;
+    margin: 20px 31%;
+    width: 200px;
     bottom: 15px;
     padding: 12px;
-    position: absolute;
     border-radius: 5px;
     color: white;
     background-color: var(--header-color);
@@ -67,4 +72,18 @@
 .card-haley h2,
 .boton-vm-doc {
     text-align: center;
+}
+
+
+.boton-vm-doc:hover{
+    background-color: var(--hover-color);
+    color: white;
+}
+
+#card-haley:hover{
+    background-image: url('../img/wallpapersden-harley.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    color: rgb(3, 133, 14);
 }

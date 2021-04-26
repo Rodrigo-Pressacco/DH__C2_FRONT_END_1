@@ -1,4 +1,4 @@
-@import "./variables.css";
+@import url("./variables.css");
 main{
     margin: 4% 0 -4%;
 }
@@ -93,6 +93,9 @@ fieldset{
 #poder1,#poder2,#poder3,#poder4,#heroe,#villano{
     margin: 12.5px;
 }
+.checkrad{
+    color: white;
+}
 
 /*Boton*/
 input[type=submit]{ 
@@ -104,4 +107,16 @@ input[type=submit]{
     margin: 0px 0px 20px 23%;
     height: 70px;
     border-radius: 25px;
+    font-size: 40px;
+    font-weight: bold;
 }
+input[type=submit]:hover{
+    background-color: var(--hover-color);
+    color: white;
+}
+/*
+.divNew1 input[type=text],
+.divNew1 input[type=date],
+.divNew1 textarea:focus{
+    background-color: #AFF9FE;
+}*/

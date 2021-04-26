@@ -1,4 +1,4 @@
-@import "./variables.css";
+@import url("./variables.css");
 /*solo heade*/
 
 header{
@@ -18,3 +18,11 @@ header h1 {
     left: 130px;
     top: 27px;
 }
+
+#descuento {
+    height: 23px;
+    padding-top: 2px;
+    padding-left: 20px;
+    background-color: var(--offer-color);
+}
+
