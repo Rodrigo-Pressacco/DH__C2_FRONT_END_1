@@ -5,6 +5,7 @@ main{
 /* CardNew*/
 .cardNew{
     width: 65%;
+    height: 870px;
     background-color: var(--header-color);
     border-radius: 25px;
     margin: 0 auto;
@@ -114,9 +115,9 @@ input[type=submit]:hover{
     background-color: var(--hover-color);
     color: white;
 }
-/*
-.divNew1 input[type=text],
-.divNew1 input[type=date],
+
+.divNew1 input[type=text]:focus,
+.divNew1 input[type=date]:focus,
 .divNew1 textarea:focus{
     background-color: #AFF9FE;
-}*/
+}
